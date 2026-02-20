@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 
-const keywordLinks = [
+/*const keywordLinks = [
   { label: "Best ERP Software", slug: "best-erp-software" },
   { label: "Best ERP System for Business", slug: "best-erp-system-for-business" },
   { label: "Best ERP for Manufacturing", slug: "best-erp-for-manufacturing" },
@@ -57,23 +57,23 @@ const Cities: React.FC = () => {
           system helps businesses streamline production, inventory,
           accounting, and finance management in one integrated platform.
         </p>
-
+*/
         {/* Keyword Pill Links */}
-        <div className="flex flex-wrap justify-center gap-3">
-          {keywordLinks.map((item, index) => (
-            <Link
-              key={index}
-              href={`/${item.slug}`}
-              className="px-4 py-2 bg-white rounded-full font-semibold text-sm hover:shadow-md transition text-sky-700"
-            >
-              {item.label}
-            </Link>
-          ))}
-        </div>
+        // <div className="flex flex-wrap justify-center gap-3">
+          // {keywordLinks.map((item, index) => (
+            // <Link
+              // key={index}
+              // href={`/${item.slug}`}
+              // className="px-4 py-2 bg-white rounded-full font-semibold text-sm hover:shadow-md transition text-sky-700"
+            // >
+              // {item.label}
+            // </Link>
+          // ))}
+        // </div>
 
-      </div>
-    </section>
-  );
-};
+      // </div>
+    // </section>
+  // );
+// };
 
-export default Cities;
+// export default Cities;
