@@ -1,7 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+
+  basePath: "/manufacturing-erp",
+  assetPrefix: "/manufacturing-erp/",
+
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
