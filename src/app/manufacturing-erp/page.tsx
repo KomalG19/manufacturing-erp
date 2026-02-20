@@ -11,8 +11,8 @@ import Comparison from '@/components/ManufacturingERP/Comparison';
 import Benefits from '@/components/ManufacturingERP/Benefits';
 import Testimonials from '@/components/ManufacturingERP/Testimonials';
 import FAQ from '@/components/ManufacturingERP/FAQ';
-import Cities from '@/components/ManufacturingERP/Cities';
 import LeadForm from '@/components/ManufacturingERP/LeadForm';
+import Cities from '@/components/ManufacturingERP/Cities';
 import Footer from '@/components/ManufacturingERP/Footer';
 import BundleCRM from '@/components/ManufacturingERP/BundleCRM';
 import FloatingActions from '@/components/ManufacturingERP/FloatingActions';
@@ -35,8 +35,9 @@ const ManufacturingERPPage: React.FC = () => {
         <Benefits />
         <Testimonials />
         <FAQ />
-        <Cities />
         <LeadForm />
+        <Cities />
+       
       </main>
 
       <Footer />
